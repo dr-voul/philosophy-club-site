@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+table {
+    text-align: center;
+    font-size: 30px;
+    border: 5px solid black;
+    border-spacing: 0;
+    background-color: black;
+    width: 100%;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.logo {
+    width: 100%;
+}
+
+.menu {
+    width: 20%;
+    height: 10px;
+}
+
+.brdr {
+    border: 3px double black
+}
+
+.google-font {
+    font-size: 50px;
+    font-family: 'Delius Swash Caps', 'Courier New'
+}
+
+.georgia {
+    font-size: 20px;
+    font-family: 'Georgia', 'Courier New'
+}
+
+.beth-ellen {
+    font-size: 30px;
+    font-family: 'Beth Ellen', 'Courier New'
+}
+
+.b-w {
+    font-size: 30px;
+    font-family: 'Black And White Picture', 'Courier New'
+}

@@ -4,45 +4,76 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My site</title>
+        <link rel="stylesheet" href="css/index.css">
     </head>
     <body>
         <header>
-            <img src="images/logo.png" alt="Logo">
-            <nav>
-                <div>
-                    <a href="#home">Home</a>
-                    <a href="#aboutus">About Us</a>
-                    <a href="#schedule">Schedule</a>
-                    <a href="#socials">Socials</a>
-                    <a href="#map">Map</a>
-                </div>
-            </nav>
+            <table>
+                <tr>
+                    <td class="logo">
+                        <img src="images/logo.png" alt="Logo">
+                    </td>
+                </tr>
+                <tr class="menu">
+                    <td>
+                        <a href="#home">
+                            <h5>Home</h5>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#aboutus">
+                            <h5>About Us</h5>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#schedule">
+                            <h5>Schedule</h5>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#socials">
+                            <h5>Socials</h5>
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#map">
+                            <h5>Map</h5>
+                        </a>
+                    </td>
+                </tr>
+            </table>
         </header>
         <main>
-            <img src="images/another-meeting.jpg" alt="Preview" width="600">
+            <img src="images/another-meeting.jpg" alt="Preview" width="600" class="brdr">
             <aside>
-                <div>The best philosophy club ever
-			</div>
+                <p class="google-font">The best philosophy club ever
+			    </p>
             </aside>
-            <img src="images/meeting.jpg" width="600" alt="Showing off">
-            <h1>About us</h1>
-            <img src="images/aristotel.jpg" id="aboutus" alt="Cool philosopher">
-            <div>Do you love deep discussions and questions that literally are mindblowing? Then join us! Here you can freely express your thoughts and feelings in the form of debates. No offence, no bullying, only opinion sharing. We also have cookies, so think twice)
-	     </div>
-            <img src="images/plato.jpg" alt="Attention taker">
-            <h1>Schedule</h1>
+            <img src="images/meeting.jpg" width="600" alt="Showing off" class="brdr">
+            <h2>About us</h2>
+            <img src="images/aristotel.jpg" id="aboutus" alt="Cool philosopher" class="brdr">
+            <p class="georgia">Do you love deep discussions and questions that literally are mindblowing? Then join us! Here you can freely express your thoughts and feelings in the form of debates. No offence, no bullying, only opinion sharing. We also have cookies, so think twice)
+	     </p>
+            <img src="images/plato.jpg" alt="Attention taker" class="brdr">
+            <h2>Schedule</h2>
             <img src="images/icon-clock.png" width="200" id="schedule" alt="Simply icon">
-            <div>
-                <p>20:00-21:30</p>
-                <p>Every Weekends including Fridays</p>
-            </div>
+            <aside>
+                <p class="beth-ellen">20:00-21:30</p>
+                <p class="b-w">Every Weekends including Fridays</p>
+            </aside>
             <img src="images/icon-calendar.png" width="200" alt="Just icon">
         </main>
         <footer>
-            <h1>Our Socials and Locations</h1>
-            <img src="images/insta.png" width="50" id="socials" alt="Link for Instagram">
-            <img src="images/facebook.png" width="50" alt="Link for_ Facebook">
-            <img src="images/twitter.png" width="50" alt="Link for Twitter">
+            <h2>Our Socials and Locations</h2>
+            <a href="https://www.instagram.com/">
+                <img src="images/insta.png" width="50" id="socials" alt="Link for Instagram">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.png" width="50" alt="Link for Facebook">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="images/twitter.png" width="50" alt="Link for Twitter">
+            </a>
             <div>
                 <form>
                     <p>
@@ -60,7 +91,7 @@
                 </form>
             </div>
             <p>
-                <img src="images/map.png" width="600" id="map" alt="Link to our Location">
+                <img src="images/map.png" width="600" id="map" alt="Link to our Location" class="brdr">
             </p>
         </footer>
     </body>

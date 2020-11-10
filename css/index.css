@@ -1,48 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
-table {
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@600&display=swap');
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
     text-align: center;
-    font-size: 30px;
-    border: 5px solid black;
-    border-spacing: 0;
-    background-color: black;
+}
+
+:root {
+     font-family: 'Open Sans', sans-serif;
+    --main-color: black;
+    --accent-color: rgb(173, 24, 24);
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+header nav .logo {
+    font-family: 'Grenze Gotisch', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin: 5px;
+}
+
+header nav .menu-items a {
+    display: inline;
+    border: 1px solid transparent;
+    padding: 3px;
+    text-decoration: none;
+    color: var(--main-color);
+}
+
+.menu-items a:hover {
+    border-color: var(--accent-color);
+}
+
+#active {
+    font-weight: bold;
+}
+
+.preview {
+    background-image: url(../images/preview.png);
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+@media (min-width: 800px) {
+
+     header nav {
+        display: flex;
+     }
+
+     header nav .menu-items { 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex: 1;
+     }
+
+}
+
+hr {
     width: 100%;
-}
-
-h5 {
-    font-family: 'Times New Roman', Times, serif
-}
-
-.logo {
-    width: 100%;
-}
-
-.menu {
-    width: 20%;
-    height: 10px;
-}
-
-.brdr {
-    border: 3px double black
-}
-
-.google-font {
-    font-size: 50px;
-    font-family: 'Delius Swash Caps', 'Courier New'
-}
-
-.georgia {
-    font-size: 20px;
-    font-family: 'Georgia', 'Courier New'
-}
-
-.beth-ellen {
-    font-size: 30px;
-    font-family: 'Beth Ellen', 'Courier New'
-}
-
-.b-w {
-    font-size: 30px;
-    font-family: 'Black And White Picture', 'Courier New'
+    border: var(--accent-color) 2px solid;
 }

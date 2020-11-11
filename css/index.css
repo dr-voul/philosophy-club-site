@@ -67,7 +67,48 @@ header nav .menu-items a {
 
 }
 
+.paragraph {
+    width: 50%;
+    margin: 3px;
+    font-size: 1rem;
+}
+
 hr {
     width: 100%;
     border: var(--accent-color) 2px solid;
+}
+
+main article .content {
+    display: inline;
+    text-align: center;
+
+    width: 33%;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.events {
+    display: flex;
+}
+
+footer {
+    justify-content: center;
+}
+
+.icons {
+    max-width: 100px;
+}
+
+.links {
+    display: grid;
+    width: 30%;
+
+}
+
+.ico {
+    display: flex;
 }

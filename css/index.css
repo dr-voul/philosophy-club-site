@@ -7,14 +7,14 @@ h1, h2, h3, p {
 }
 
 :root {
-     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     --main-color: black;
     --accent-color: rgb(173, 24, 24);
     scroll-behavior: smooth;
 }
 
 body {
-    max-width: 980px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -34,7 +34,10 @@ header nav .menu-items a {
 }
 
 .menu-items a:hover {
-    border-color: var(--accent-color);
+    background-color: var(--accent-color);
+    color: white;
+    border: 2px solid black;
+    padding: 2px;
 }
 
 #active {
@@ -54,6 +57,10 @@ header nav .menu-items a {
 
 @media (min-width: 800px) {
 
+     header nav .logo {
+         display: flex;
+     }
+     
      header nav {
         display: flex;
      }
@@ -71,6 +78,7 @@ header nav .menu-items a {
     width: 50%;
     margin: 3px;
     font-size: 1rem;
+    text-align: center;
 }
 
 hr {
@@ -79,9 +87,7 @@ hr {
 }
 
 main article .content {
-    display: inline;
-    text-align: center;
-
+    display: flex;
     width: 33%;
 }
 

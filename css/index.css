@@ -75,10 +75,11 @@ header nav .menu-items a {
 }
 
 .paragraph {
-    width: 50%;
-    margin: 3px;
+    display: flex;
+    margin: 1px;
     font-size: 1rem;
     text-align: center;
+    align-items: center;
 }
 
 hr {
@@ -86,9 +87,22 @@ hr {
     border: var(--accent-color) 2px solid;
 }
 
-main article .content {
-    display: flex;
-    width: 33%;
+.left {
+    float: left;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.right {
+    float: right;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+.cent {
+    margin: auto;
+    border: 2px black solid;
+    border-radius: 5px;
 }
 
 .content {
@@ -97,8 +111,10 @@ main article .content {
     padding: 10px;
 }
 
-.events {
+.card {
     display: flex;
+    width: 100%;
+    justify-content: center;
 }
 
 footer {

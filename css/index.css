@@ -101,6 +101,9 @@ hr {
 
 .cent {
     margin: auto;
+    align-content: center;
+    width: 90%;
+    max-height: 300px;
     border: 2px black solid;
     border-radius: 5px;
 }
@@ -117,20 +120,39 @@ hr {
     justify-content: center;
 }
 
-footer {
+main .events {
+    margin: auto;
+    display: flex;
+    width: 70%;
     justify-content: center;
+}
+
+footer .links {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 100px 100px 100px;
 }
 
 .icons {
     max-width: 100px;
 }
 
-.links {
-    display: grid;
-    width: 30%;
-
-}
-
 .ico {
     display: flex;
+}
+
+h3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .form {
+   display: grid;
+   justify-content: flex-end;
+   width: 100%; 
+}
+
+form {
+    width: 100%;
 }

@@ -25,28 +25,22 @@ header nav .logo {
     margin: 5px;
 }
 
-header nav .menu-items a {
+/* header nav .menu-items a {
     display: inline;
     border: 1px solid transparent;
     padding: 3px;
     text-decoration: none;
     color: var(--main-color);
-}
+} */
 
-.menu-items a:hover {
-    background-color: var(--accent-color);
-    color: white;
-    border: 2px solid black;
-    padding: 2px;
-}
-
-#active {
+/* #active {
     font-weight: bold;
-}
+} */
 
 .preview {
+    width: 100%;
     background-image: url(../images/preview.png);
-    min-height: 400px;
+    min-height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -55,7 +49,7 @@ header nav .menu-items a {
     flex-direction: column; 
 }
 
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
 
      header nav .logo {
          display: flex;
@@ -72,22 +66,27 @@ header nav .menu-items a {
         flex: 1;
      }
 
-}
+} */
 
-.paragraph {
+/* .paragraph {
     display: flex;
     margin: 1px;
     font-size: 1rem;
     text-align: center;
     align-items: center;
-}
+} */
 
 hr {
     width: 100%;
-    border: var(--accent-color) 2px solid;
+    border: var(--main-color) 2px solid;
 }
 
-.left {
+.team {
+    width: 450px;
+    height: 400px;
+}
+
+/* .left {
     float: left;
     border: 2px black solid;
     border-radius: 5px;
@@ -106,9 +105,9 @@ hr {
     max-height: 300px;
     border: 2px black solid;
     border-radius: 5px;
-}
+} */
 
-.content {
+/* .content {
     display: flex;
     justify-content: center;
     padding: 10px;
@@ -125,13 +124,10 @@ main .events {
     display: flex;
     width: 70%;
     justify-content: center;
-}
+} */
 
 footer .links {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-    grid-template-columns: 100px 100px 100px;
+    margin: auto;
 }
 
 .icons {
@@ -140,9 +136,10 @@ footer .links {
 
 .ico {
     display: flex;
+    justify-content: center;
 }
 
-h3 {
+/* h3 {
     display: flex;
     justify-content: flex-end;
 }
@@ -155,4 +152,4 @@ footer .form {
 
 form {
     width: 100%;
-}
+} */

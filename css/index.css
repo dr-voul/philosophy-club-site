@@ -20,22 +20,10 @@ body {
 
 header nav .logo {
     font-family: 'Grenze Gotisch', cursive;
-    font-size: 3rem;
+    font-size: 1.5rem;
     text-align: center;
     margin: 5px;
 }
-
-/* header nav .menu-items a {
-    display: inline;
-    border: 1px solid transparent;
-    padding: 3px;
-    text-decoration: none;
-    color: var(--main-color);
-} */
-
-/* #active {
-    font-weight: bold;
-} */
 
 .preview {
     width: 100%;
@@ -49,33 +37,6 @@ header nav .logo {
     flex-direction: column; 
 }
 
-/* @media (min-width: 800px) {
-
-     header nav .logo {
-         display: flex;
-     }
-     
-     header nav {
-        display: flex;
-     }
-
-     header nav .menu-items { 
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        flex: 1;
-     }
-
-} */
-
-/* .paragraph {
-    display: flex;
-    margin: 1px;
-    font-size: 1rem;
-    text-align: center;
-    align-items: center;
-} */
-
 hr {
     width: 100%;
     border: var(--main-color) 2px solid;
@@ -86,70 +47,74 @@ hr {
     height: 400px;
 }
 
-/* .left {
-    float: left;
-    border: 2px black solid;
-    border-radius: 5px;
+.height {
+    height: 200px;
 }
 
-.right {
-    float: right;
-    border: 2px black solid;
-    border-radius: 5px;
+.curwa {
+    height: 150px;
 }
 
-.cent {
-    margin: auto;
-    align-content: center;
-    width: 90%;
-    max-height: 300px;
-    border: 2px black solid;
-    border-radius: 5px;
-} */
-
-/* .content {
-    display: flex;
-    justify-content: center;
-    padding: 10px;
+.names {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.card {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-main .events {
-    margin: auto;
-    display: flex;
-    width: 70%;
-    justify-content: center;
-} */
-
-footer .links {
-    margin: auto;
+.schedule {
+    font-family: 'Grenze Gotisch';
+    font-size: 25px;
+    font-weight: bold;
 }
 
 .icons {
-    max-width: 100px;
+    max-width: 60px;
 }
 
-.ico {
-    display: flex;
-    justify-content: center;
+.follow {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
 }
 
-/* h3 {
-    display: flex;
-    justify-content: flex-end;
+.price {
+    font-size: 18px;
 }
 
-footer .form {
-   display: grid;
-   justify-content: flex-end;
-   width: 100%; 
-}
-
-form {
+.divide {
     width: 100%;
-} */
+    border: var(--main-color) 0.5px;
+}
+
+.dark-background {
+    background-image: url(../images/form-background.jpg);
+    width: 100%;
+    min-height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}
+
+.map {
+    width: 100%;
+    height: 300px;
+}
+
+.footer-icon {
+    background-image: url(../images/aristotel-icon.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.adress {
+    font-family: 'Grenze Gotisch';
+    font-size: 25px;
+}
